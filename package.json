@@ -1,0 +1,24 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for serving up all modules for Turntable",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableturners/photos-proxy.git"
+  },
+  "author": "eliu390",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tableturners/photos-proxy/issues"
+  },
+  "homepage": "https://github.com/tableturners/photos-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
